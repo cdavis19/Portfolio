@@ -13,8 +13,7 @@ app.config(function($routeProvider, $locationProvider){
     .when('/portfolio', {
       controller: 'portfolioController',
       templateUrl: 'views/portfolio.html'
-
     })
-    .otherwise({redirectTo:'/'});
+    .otherwise({redirectTo:'/home'});
     $locationProvider.hashPrefix('');
   });

@@ -1,0 +1,55 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(133, 134, 129);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+li a:hover {
+    background-color: rgb(142, 147, 143);
+}
+
+.footer {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  padding: 10px;
+  background-color: rgb(133, 134, 129);
+  text-align: center;
+}
+
+i:hover {
+  color: rgb(184, 31, 209);
+}
+
+  body {
+  padding: 0;
+  margin: 0;
+  background-image: url("https://images.designtrends.com/wp-content/uploads/2016/01/27113426/Black-and-White-Lake-Background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home {
+  text-align: center;
+  color: white;
+  margin: 120px;
+  font-size: 50px;
+}

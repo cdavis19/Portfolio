@@ -105,15 +105,15 @@ body {
 }
 
 .project {
-    border: 1px solid white;
+  border: 1px solid white;
     float: left;
     max-width: 300px;
-    margin: 40px;
+    margin: 10px;
     background-color: rgb(201, 199, 192);
     border-radius: 10px;
     margin-top: 80px;
     box-shadow: 2px 1px 10px #000000;
-    margin-left: 90px;
+    margin-left: 0px;
     height: 385px;
 }
 

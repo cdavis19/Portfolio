@@ -3,7 +3,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    /*background-color: rgb(133, 134, 129);*/
+
 }
 
 li {
@@ -31,7 +31,6 @@ li a:hover {
     bottom: 0px;
     left: 0px;
     padding: 10px;
-    /*background-color: rgb(133, 134, 129);*/
     text-align: center;
 }
 
@@ -91,6 +90,8 @@ body {
 
 .text {
     color: white;
+    font-family: 'Raleway', sans-serif;
+
 }
 
 .copy {
@@ -108,6 +109,7 @@ body {
     margin-top: 80px;
     box-shadow: 2px 1px 10px #000000;
     margin-left: 90px;
+    height: 385px;
 }
 
 .project img {
@@ -118,15 +120,8 @@ body {
 }
 
 
-/*h3 {
-    background-color: rgb(201, 199, 192);
-    color: black;
-    padding: 20px;
-    font-family: 'Raleway', sans-serif;
-}*/
 
 .project a {
-    /*text-decoration: none;*/
     display: block;
     color: black;
     font-family: 'Raleway', sans-serif;
@@ -137,6 +132,8 @@ body {
     color: black;
     font-family: 'Raleway', sans-serif;
     text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .project:hover {
@@ -145,55 +142,4 @@ body {
 
 a:hover {
     color: white;
-}
-
-@media screen and (max-width: 480px) {
-  .project {
-      border: 1px solid white;
-      float: left;
-      max-width: 300px;
-      margin: 40px;
-      background-color: rgb(201, 199, 192);
-      border-radius: 10px;
-      margin-top: 80px;
-      box-shadow: 2px 1px 10px #000000;
-      margin-left: 90px;
-  }
-
-  .project img {
-      height: 200px;
-      padding: 20px;
-      margin: 0px;
-      width: 260px;
-  }
-
-
-  /*h3 {
-      background-color: rgb(201, 199, 192);
-      color: black;
-      padding: 20px;
-      font-family: 'Raleway', sans-serif;
-  }*/
-
-  .project a {
-      /*text-decoration: none;*/
-      display: block;
-      color: black;
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
-  }
-
-  .project p {
-      color: black;
-      font-family: 'Raleway', sans-serif;
-      text-align: center;
-  }
-
-  .project:hover {
-      transform: scale(1.01);
-  }
-
-  a:hover {
-      color: white;
-  }
 }

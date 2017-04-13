@@ -4,15 +4,15 @@ app.config(function($routeProvider, $locationProvider){
   $routeProvider
     .when('/home', {
       controller: 'homeController',
-      templateUrl: '..views/home.html'
+      templateUrl: 'public/views/home.html'
     })
     .when('/about', {
       controller: 'aboutController',
-      templateUrl: '..views/about.html'
+      templateUrl: 'public/views/about.html'
     })
     .when('/portfolio', {
       controller: 'portfolioController',
-      templateUrl: '..views/portfolio.html'
+      templateUrl: 'public/views/portfolio.html'
     })
     .otherwise({redirectTo:'/home'});
     $locationProvider.hashPrefix('');

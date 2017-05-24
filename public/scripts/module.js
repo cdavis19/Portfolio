@@ -1,5 +1,7 @@
 var app = angular.module('myMod', ['ngRoute']);
 
+
+// add public/ back to templateUrl
 app.config(function($routeProvider, $locationProvider){
   $routeProvider
     .when('/home', {

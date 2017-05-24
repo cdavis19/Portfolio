@@ -159,11 +159,3 @@ body {
 a:hover {
     color: white;
 }
-
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .wrapper {
-  width:300px; /* Smartphone resolution 320 x 480 */
-  margin: 0 auto;
-}
-}

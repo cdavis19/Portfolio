@@ -56,34 +56,23 @@ body {
     background-attachment: fixed;
 }
 
-/*.home {
+.home {
     text-align: center;
     color: white;
     margin: 110px;
     font-size: 50px;
     text-shadow: 2px 2px 25px #000000;
     font-family: 'Raleway', sans-serif;
-}*/
+}
 
 .name {
     margin-bottom: 0%;
-    text-align: center;
-    color: white;
-    margin: 110px;
-    font-size: 50px;
-    text-shadow: 2px 2px 25px #000000;
-    font-family: 'Raleway', sans-serif;
+
 
 }
 
 .front {
     margin-top: 0%;
-    text-align: center;
-    color: white;
-    margin: 110px;
-    font-size: 50px;
-    text-shadow: 2px 2px 25px #000000;
-    font-family: 'Raleway', sans-serif;
 }
 
 .image {

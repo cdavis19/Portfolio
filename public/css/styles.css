@@ -1,6 +1,30 @@
-.wrapper {
-    max-width: 970px;
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.col-centered {
+    float: none;
     margin: 0 auto;
+}
+
+.navbar-default {
+    background: transparent;
+    background-image: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
 }
 
 ul {
@@ -8,7 +32,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
 
+a:hover {
+    text-decoration: none;
 }
 
 li {
@@ -32,17 +59,34 @@ li a:hover {
 }
 
 li a:active {
-  color: rgb(142, 147, 143);
-  text-decoration: none;
+    color: rgb(142, 147, 143);
+    text-decoration: none;
 }
 
 .footer {
-    position: absolute;
     right: 0px;
     bottom: 0px;
     left: 0px;
     padding: 10px;
     text-align: center;
+}
+
+.name {
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    text-shadow: 1px 2px 30px #000000;
+    margin-top: 91px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.front {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    text-shadow: 1px 2px 18px #000000;
+    font-family: 'Raleway', sans-serif;
 }
 
 i {
@@ -60,27 +104,7 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
-
-.home {
-    text-align: center;
-    color: white;
-    margin: 110px;
-    font-size: 50px;
-    text-shadow: 2px 2px 25px #000000;
-    font-family: 'Raleway', sans-serif;
-}
-
-.name {
-    margin-bottom: 0%;
-
-
-
-}
-
-.front {
-    margin-top: 0%;
-
+    padding-bottom: 70px;
 }
 
 .image {
@@ -89,25 +113,12 @@ body {
     border-radius: 50%;
 }
 
-.picture {
-  float: left;
-  margin-top: 150px;
-  margin-left: 10%;
-}
-
-.description {
-    width: 220px;
-    margin-left: 30px;
-    float: right;
-    margin-top: 150px;
-    margin-right: 25%;
-    text-align: center;
-}
-
 .text {
     color: white;
     font-family: 'Raleway', sans-serif;
-
+    text-shadow: 1px 2px 6px #000000;
+    font-size: 17px;
+    padding: 10px;
 }
 
 .copy {
@@ -116,32 +127,23 @@ body {
 }
 
 .project {
-  border: 1px solid white;
-    float: left;
-    max-width: 300px;
-    margin: 10px;
+    border: 1px solid white;
+    width: 300px;
+    margin: 0px;
     background-color: rgb(201, 199, 192);
     border-radius: 10px;
-    margin-top: 80px;
+    margin-top: 30px;
     box-shadow: 2px 1px 10px #000000;
-    margin-left: 0px;
-    height: 385px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project img {
-    height: 200px;
+    height: 250px;
     padding: 20px;
     margin: 0px;
-    width: 260px;
-}
-
-
-
-.project a {
-    display: block;
-    color: black;
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
+    width: 100%;
 }
 
 .project p {
